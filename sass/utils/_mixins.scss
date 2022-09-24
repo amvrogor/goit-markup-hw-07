@@ -1,0 +1,12 @@
+@mixin section($padding: 94px) {
+  padding-top: $padding;
+  padding-bottom: $padding;
+}
+
+@mixin container($ml: auto, $mr: auto, $w: 1200px, $pl: 15px, $pr: 15px) {
+  margin-left: $ml;
+  margin-right: $mr;
+  width: $w;
+  padding-left: $pl;
+  padding-right: $pr;
+}
